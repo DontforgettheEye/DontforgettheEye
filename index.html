@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Greig Roulston Portfolio Site</title>
+    <link rel="stylesheet" href="/static/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <main>
+
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <img id="modal-img">
+    <p id="modal-blurb"></p>
+  </div>
+
+</div>
+
+
+      <div id="main-col">
+        <h1 >Greig Roulston</h1>
+        <h2 >Python Developer, Artist, Designer, Maker of Things</h2>
+
+
+        <p>
+Avid problem solver with over five years experience writing Python and Javascript for various functions including automation tasks, web apps, conversion pipelines and data analysis.</p>
+<p>
+A keen learner who thrives on learning new technologies and skills, also very much enjoys teaching and presenting these learnings to others including conference presentations at Kiwi Pycon and the National Digital Forum . The only thing better than getting something to work is empowering someone else to do the same.</p>
+<p>
+Along with technical skills I also thrive in creative areas with a strong understanding of visual communication design and love a good graph. I have worked as a concept artist, illustrator and have done my fair share of graphic design and web design work over the years.
+</p>
+<p>
+A big fan of tinkering with technology I have taught myself GDscript for the Godot game engine, built racing drones, guitar effect pedals and built a few Arcade gaming machines.
+        </p>
+
+
+        
+<div class="section">
+        <h2>Public Speaking</h2>
+
+<div class="card-group">
+        <a href="https://youtu.be/VOEbhYxWimU?si=4G77Q_Vi0Y2020w7" target="_blank">
+        <div id="speakPycon" class="combocard">
+          <div class="combocardimage">
+          <img src="/static/images/talks/kiwipycon.jpg">
+        </div>
+        <div class="cardtext">
+          <h3>Find all the Books</h3>
+          <p>Kiwi PyCon 2014</p>
+        </div>
+      </div>
+      </a>
+
+        <a href="https://youtu.be/K49kvOzC1k0?si=GAP1oXC5-Odot9rc" target="_blank">
+        <div id="speakNDF1" class="combocard">
+          <div class="combocardimage">
+          <img src="/static/images/talks/findingAllTheBooks.jpg">
+        </div>
+        <div class="cardtext">
+          <h3>Finding all the Books</h3>
+          <p>NDF 2015</p>
+        </div>
+      </div>
+      </a>
+
+        <a href="https://youtu.be/UHjDegU4mBM?si=o710FVX7QQ9dUEIj" target="_blank">
+        <div id="speakNDF2" class="combocard">
+                    <div class="combocardimage">
+          <img src="/static/images/talks/KumaraTimes.jpg">
+        </div>
+        <div class="cardtext">
+          <h3>Mining the Kumara Times for Gold, with Machines</h3>
+          <p>NDF 2017</p>
+        </div>
+      </div>
+      </a>
+
+   
+          <a href="https://youtu.be/IDYwLigW4Tg?si=JOF0Em_kEYaDX08N" target="_blank">
+          <div id="speakNDF4" class="combocard">
+                      <div class="combocardimage">
+          <img src="/static/images/talks/internetArcade.jpg">
+        </div>
+        <div class="cardtext">
+          <h3>Internet Arcade (Lightning Talk)</h3>
+          <p>NDF 2016</p>
+        </div>
+      </div>
+        </a>
+
+          <a href="https://www.youtube.com/live/Mib8sasCOt0?si=AQZNUAiQZktntoQk" target="_blank">
+          <div id="speakDPS" class="combocard">
+                      <div class="combocardimage">
+          <img src="/static/images/talks/dps.jpg">
+        </div>
+        <div class="cardtext">
+          <h3>Digital Painting Studio</h3>
+          <p>DPS Youtube live stream 2022</p>
+        </div>
+      </div>
+        </a>
+
+
+
+</div>
+</div>
+<div class="section">
+        <h2>Projects</h2>
+<div class="card-group">
+
+        <div id="InternetArcade" class="combocard" onclick="popModal(this)">
+           <div class="combocardimage">
+          <img src="/static/images/projects/internetArcade.jpg">
+        </div>
+        <div class="cardtext">
+          <h3>Internet Arcade</h3>
+          <p>Arcade Machine at the National Library</p>
+        </div>
+      </div>
+     
+         <div id="Verge3dpipeline" class="combocard" onclick="popModal(this)">
+          <div class="combocardimage">
+        <img src="/static/images/projects/blender.jpg">
+        </div>
+        <div class="cardtext">
+          <h3>PSD to Blender Conversion</h3>
+          <p>Python Process to convert PSD files to Blender</p>
+        </div>
+      </div>
+
+
+         <div id="BookDataExplorer" class="combocard" onclick="popModal(this)">
+        <div class="combocardimage">
+        <img src="/static/images/projects/bookExplorer.jpg">
+        </div>
+        <div class="cardtext">
+          <h3>NZ Book Data Explorer</h3>
+          <p>Digitisation Scopping project at NLNZ</p>
+        </div>
+      </div>
+
+</div>
+</div>
+<div class="section">
+        <h2>Art</h2>
+<div class="card-group">
+        <div id="alienwarrior" class="cardimage" onclick="popModal(this)">
+          <img src="/static/images/art/AlienWarrior.jpg">
+        </div>
+
+        <div id="wastelandmystic" class="cardimage" onclick="popModal(this)">
+          <img src="/static/images/art/wasteLandMystic.jpg">
+        </div>
+
+
+       <div id="portship" class="cardimage" onclick="popModal(this)">
+          <img src="/static/images/art/PortShip.jpg">
+        </div>
+
+        <div id="queen" class="cardimage" onclick="popModal(this)">
+          <img src="/static/images/art/Queen_Render.jpg">
+        </div>
+
+        <div id="robotshaman" class="cardimage" onclick="popModal(this)">
+          <img src="/static/images/art/RobotPencilShaman.jpg">
+        </div>
+
+         <div id="sentrybot" class="cardimage" onclick="popModal(this)">
+          <img src="/static/images/art/SentryBot.jpg">
+        </div>
+
+</div>
+<p style="text-align: center;">You can see more of my artwork on <a href="https://www.artstation.com/greigroulston">Artstation</a> and <a href="https://www.instagram.com/dontforgettheeye/">Instagram</a></p> 
+</div>
+
+
+
+<div class="section">
+
+        <h2>Design</h2>
+  <div class="card-group">
+        <div id="acecompany" class="cardimage" onclick="popModal(this)">
+          <img src="/static/images/design/acecompany.jpg">
+        </div>
+
+        <div id="memoryplays" class="cardimage" onclick="popModal(this)">
+          <img src="/static/images/design/memoryplays.jpg">
+        </div>
+
+
+       <div id="projecttempusdesign" class="cardimage" onclick="popModal(this)">
+          <img src="/static/images/design/PT_design.jpg">
+        </div>
+  </div>
+</div>
+<div class="section">
+        <h2>Fun</h2>
+<div class="card-group">
+
+        <div id="guitarpedals" class="combocard" onclick="popModal(this)">
+          <div class="combocardimage">
+          <img src="/static/images/fun/pedals.jpg">
+        </div>
+        <div class="cardtext">
+          <h3>DIY guitar Effect Pedals</h3>
+          <p>Fuzz, distortion, delay and reverb effect pedals custom made</p>
+        </div>
+        </div>
+
+        <div id="racingdrones" class="combocard" onclick="popModal(this)">
+          <div class="combocardimage">
+          <img src="/static/images/fun/drones.jpg">
+        </div>
+        <div class="cardtext">
+          <h3>First Person Racing Drones</h3>
+          <p>build fly crash repeat</p>
+        </div>
+</div>
+
+          <div id="stormtrooper" class="combocard" onclick="popModal(this)">
+          <div class="combocardimage">
+          <img src="/static/images/fun/stormtrooper.jpg">
+        </div>
+        <div class="cardtext">
+          <h3>Star Wars Stormtrooper Armour</h3>
+          <p>built to spec to match original trilogy</p>
+        </div>
+      </div>
+</div>
+
+</div>
+<div id="footer">
+<p>Find me on Artstation, Instagram, Linkdin and Github</p>
+
+</div>
+</div>
+
+
+
+
+
+      </div>
+    </main>
+
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+
+
+
+function popModal(elementId) {
+  modal.style.display = "block";
+  document.getElementById("modal-img").src = data[elementId.id]["image"];
+  var has_blurb ="blurb" in data[elementId.id];
+  if (has_blurb=== true){
+    document.getElementById("modal-blurb").innerHTML = data[elementId.id]["blurb"]
+  }else{
+    document.getElementById("modal-blurb").innerHTML = ""
+  }
+
+}
+
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+
+var data = {"alienwarrior":{"image":"/static/images/art/AlienWarrior.jpg","blurb":"Small Alien with Big Attitude.</br> painted in Adobe Photoshop"},
+            "wastelandmystic":{"image":"/static/images/art/wasteLandMystic.jpg","blurb":"Post apocalyptic mystic.</br> painted in Adobe Photoshop"},
+            "portship":{"image":"/static/images/art/PortShip.jpg","blurb":"Portship, space tug design.</br> painted in Adobe Photoshop"},
+            "queen":{"image":"/static/images/art/Queen_Render.jpg","blurb":"A Powerful monarch exuding supreme confidence, beauty and authority.</br> painted in Adobe Photoshop"},
+            "robotshaman":{"image":"/static/images/art/RobotPencilShaman.jpg","blurb":"Designs for characters set on a junk yard planet.</br> painted in Adobe Photoshop"},
+            "sentrybot":{"image":"/static/images/art/SentryBot.jpg","blurb":"Sentry bot enemy concept design. Drawing reference from sea creatures and some classic sci-fi tropes this was a ton of fun to design and then paint up.</br> painted in Adobe Photoshop"},
+            "acecompany":{"image":"/static/images/design/acecompany.jpg","blurb":"Collection of Graphic design work done for the Ace Company FPV drone supply store, logos, packaging design and promotional material"},
+            "memoryplays":{"image":"/static/images/design/memoryplays.jpg","blurb":"Promotional posters done for the anthology “Memory Plays” theatre production."},
+            "projecttempusdesign":{"image":"/static/images/design/PT_design.jpg","blurb":"Final design for the Project Tempus branding, Title card and cover design for the Machines of Mana comic book series. I also painted this cover in Adobe Photoshop."},
+            "guitarpedals":{"image":"/static/images/fun/pedals.jpg","blurb":"Over the years I have put my soldering and electronic skills to use to make many guitar pedals. I have made many fuzz, distortion, delay, reverb and tremolo pedals, often with modifications to the circuit to make it my own. </br>My favourite pedal built is the “Fuzz War” which I printed my own circuit board onto copper and it is wonderfully loud with a nice warm fuzzy tone."},
+            "racingdrones":{"image":"/static/images/fun/drones.jpg","blurb":"For a few years I was obsessed with FPV racing drones, I was a regular down at the local Model Flying NZ club and competed all over the country in FPV racing events and was often at local parks flying freestyle.</br>I built, crashed and repaired many drones during this time and even designed my own frame in CAD and got it laser cut. I got very good at soldering and troubleshooting issues to try and get my drones flying as smoothly as they could."},
+            "stormtrooper":{"image":"/static/images/fun/stormtrooper.jpg","blurb":"As a massive fan of Star Wars growing up I was blown away when I found out that there was a group of individuals who cosplayed as storm troopers as the 501st legion.</br>Built from a kit from RS props, I have not yet joined the 501st but it is built to their strict specifications.</br> I do love wearing it when I can and will wear it at halloween when my daughter is trick or treating and have done a few memorable visits to daycare and schools.</br>I hope to one day join the 501st and get it verified but do find being in public quite intense as you really cannot see anything - no wonder stormtroopers have such terrible aim. "},
+            "InternetArcade":{"image":"/static/images/projects/internetArcade.jpg","blurb":"My and 2 fellow co-workers at the National Library were given the opportunity to build an Arcade Machine to be housed at the ground floor of the NLNZ Wellington building. </br>Built in the style of the locally found “Neo Geo lowboy” I planned, helped in construction, did the wiring and built the front and back end for the interface.</br>Using games that were available from the Internet Archive I also scrapped meta data from Wikipedia and the Giant Bomb website, this gives the users context for why some of the games are historic and important but also makes it more than just playing games it is a learning experience on the history of gaming.</br>The interface is built in python using a flask web app, run through a browser using HTML/CSS and some javascript while all the metadata is saved in a MongoDB database."},
+            "Verge3dpipeline":{"image":"/static/images/projects/blender.jpg","blurb":"While working as the lead Artist at Project Tempus I had the opportunity to develop and implement the creative processes that were used to bring the comics to life.</br> While developing the art and worlds a decision was made for these to be more then just still images and they become motion comics, this meant that depth was added as well as looping animations. </br>The technology that was used to make this happen was a javascript library called Verge3d and meant that the artwork needed to be transitioned from Adobe Photoshopt to Blender - 3D software.</br> To enable the artists to focus on the artwork and not the technology I developed a pipeline solution using Python which took the PSD files and separated out the layered files to flat images, then packed and created texture sheets in TexturePacker, the last step was to import all the imagery into Blender where it was given some depth. </br>This pipeline saved the company many hours in animator time and meant more focus could be given to adding animations then image cleanup."},
+            "BookDataExplorer":{"image":"/static/images/projects/bookExplorer.jpg","blurb":"While working as a Digitisation Advisor at the National Library I was given the opportunity to research and scope out a project to try and digitise all the books that were written by, about and for New Zealanders.</br> Starting with a rather unwieldy Excel spreadsheet this soon evolved into me learning Python, databases, open data sets, web scraping, data visualisation and building a web app.</br>While some books were digitised the final evolution of this project was further analysis done of Books in Maori which led to digitising all the books written in Maori pre 1900."}
+            }
+
+</script>
+
+
+
+    
+  </body>
+</html>
