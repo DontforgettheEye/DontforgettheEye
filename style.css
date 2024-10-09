@@ -274,11 +274,15 @@ a {
 }
 
 #footer{
-	margin-top: 40px;
+	margin-top: 20px;
 	float:left;
 	text-align: center;
 	height:200px;
 	width:100%;
+}
+
+#footer p{
+	margin-bottom: 40px;
 }
 
 #modal-blurb{
